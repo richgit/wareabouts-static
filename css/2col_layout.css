@@ -1,0 +1,29 @@
+.outer_2col {
+position: relative; /*** IE needs this or the contents won't show outside the parent container. ***/
+margin-left: 150px;    /*** Critical left col dimension value ***/
+width: 630px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+background: #fff url(/image/spacer.gif);  /*** Sets background of center col***/
+border-left: 1px solid #DDDDDD;   /*** Critical left divider dimension value ***/
+border-right: 1px solid #DDDDDD;   /*** Critical right divider dimension value ***/
+}
+
+* html .outer_2col {   /*** IE5.x/win box model fix ***/
+width: 632px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+wid\th: 632px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+}
+
+.float-wrap_2col {
+float: left;
+width: 632px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+margin-right: -1px;   /*** Static fix ***/
+}
+
+.center_2col {
+float: right;
+width: 630px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+margin-bottom: -1px;   /*** Fixes a variance in IE/win for the green AP bottom boxes ***/
+/* \*/
+margin-left: -1px; 
+/* Hidden from IE-mac */
+}
+

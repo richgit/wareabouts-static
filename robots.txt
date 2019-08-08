@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /random/
+Disallow: /albums/
+Disallow: /php/
+Sitemap: http://www.wareabouts.com/sitemap.xml

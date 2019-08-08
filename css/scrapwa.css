@@ -1,0 +1,758 @@
+/*
+h1, h1 a {
+font-size:17px;
+font-weight:bold;
+margin-bottom:4pt;
+}
+*/
+#topMenu {
+    float:left;
+	width:550px;
+}
+
+.topWrapper {
+    clear:both;
+    float:left;
+}
+
+.noHoverBG a:hover {
+background:#FFFFFF;
+}
+
+#footer {
+    background:#FFFFFF url(/image/bkgrd_footer.jpg) repeat-x scroll 0%;
+    border-top:1px solid #AEAEAE;
+    color:#666666;
+    float:right;
+    font-size:80%;
+    height:48px;
+    margin-bottom:25px;
+    width: 100%;
+    text-align:right;
+}
+
+#footerLeft {
+    float: left;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#footerRight {
+    margin-top:2px;
+}
+
+#footer a:hover{
+    background-color: transparent;
+}
+
+#footer a{
+    margin-right:10px;
+}
+
+#searchListElement {
+    margin:0px;
+    padding:0px 12px 0px 0px;
+    float:right;
+}
+
+#latestLink {
+  margin-left:292px;
+}
+
+.center h1, .center_2col h1, #latestHeaderDiv, #adverts h1 {
+font-size: 14px;
+font-weight: bold;
+margin-top: 12px;
+padding-top: 4px;
+border-top: solid 1px #B5CFBD;
+}
+
+#latestHeader {
+font-size: 14px;
+font-weight: bold;
+}
+
+.center h1 a, .center_2col h1 a{
+font-size: 14px;
+margin-top: 12px;
+padding-top: 4px;
+border-top: solid 1px #B5CFBD;
+}
+
+.right .banner {
+background:#E9E9E9 none repeat scroll 0%;
+padding:3px 5px 4px;
+margin-top: 5px;
+border-top: solid 1px #B5CFBD;
+height: 14px;
+}
+
+.leftbanner {
+  float:left;
+}
+
+.rightbanner {
+  float:right;
+  margin-top:5px;
+}
+
+.rightbanner a {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.left .banner {
+background:#E9E9E9 none repeat scroll 0%;
+padding:3px 5px 4px;
+margin-top: 5px;
+border-top: solid 1px #B5CFBD;
+height: 14px;
+}
+
+.center .innertube, .center_2col, #adverts .innertube {
+margin:0pt 0pt 70px;
+padding:7px 0px 0px 7px;
+position:relative;
+z-index:1;
+}
+
+.left .innertube {
+background:#F7F7F7 none repeat scroll 0%;
+	margin:0pt;
+padding:5px;
+position:relative;
+z-index:1;
+}
+
+.left .innertube a {
+font-size: 10px;
+}
+
+.right .innertube {
+background:#F7F7F7 none repeat scroll 0%;
+margin:0pt;
+padding:5px;
+position:relative;
+z-index:1;
+}
+
+.right .innertube a {
+font-size: 10px;
+}
+
+
+.clearfix:after {
+clear:both;
+content:".";
+display:block;
+height:0pt;
+line-height:0pt;
+visibility:hidden;
+}
+
+.clearfix {
+}
+
+html[xmlns] .clearfix {
+display:block;
+}
+
+* html .clearfix {
+height:1%;
+}
+
+.searchResultOuter {
+  float:left;
+  margin:5px;
+  width:30%;
+}
+
+.searchResultInner {
+  border:1px solid #B5CFBD;
+}
+
+.searchResultInner a {
+    background:#FFFFFF;
+}
+
+.searchResultInner a:hover {
+    background:#FFFFFF;
+	color:#71855E;
+}
+
+.searchResultInner:hover {
+    border:1px solid #71855E;
+}
+
+.searchResultDate {
+    text-align:center;
+    display:block;
+    padding:5px;
+}
+
+.searchResultImage {
+    text-align:center;
+    display:block;
+}
+
+.searchResultImage:hover {
+    background:#FFFFFF;
+	color:#71855E;
+}
+
+.searchResultDesc {
+    text-align:center;
+    display:block;
+    margin:10px 5px 0px 5px;
+}
+
+.searchResultPostDesc {
+    margin-top:2px;
+}
+
+.yearRow {
+    float:left;
+    margin-top:10px;
+}
+
+.allPostYear {
+    width: 155px;
+    float:left;
+    margin-bottom:12px;
+    padding: 0px;
+}
+
+.allPostYear .year a, #leftcolumn a {
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.allPostYear  ul {
+    margin-left:14px;
+    margin-right:4px;
+    list-style: url(/image/bullet-point.gif);
+}
+
+.allPostYear  li {
+    padding-top: 1px;
+}
+
+.gototop {
+    clear:both;
+    float:right;
+    width:10px;
+    margin-right:11px;
+    padding:0px;
+}
+
+.blogPost {
+    float: left;
+    margin-bottom: 12px;
+    width:100%;
+}
+
+.beforeFile a, .homeBlock a {
+    text-decoration: underline;
+}
+
+.homeBlock {
+   width: 100%;
+   float: left;
+}
+
+.homeBlockLeft {
+   width: 65%;
+   float: left;
+}
+
+.homeBlockRight {
+   float: right;
+   width:35%;
+}
+
+.anchors {
+    float:right;
+    clear:both;
+    width:98%;
+    margin-top: 4px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+.anchors a {
+    font-size: 10px;
+}
+
+.navigation {
+    font-style:italic;
+    float:right;
+    clear:both;
+    width:98%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.previous {
+    float:left;
+}
+
+.next {
+    float:right;
+}
+
+#navLinks {
+    float:right;
+    width:305px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#topsection input {
+    font-size: 9px;
+    margin: 0px;
+    padding: 1px 0px 0px;
+}
+
+
+#topsection h1 {
+    float:left;
+    padding: 0pt;
+}
+
+#passwordArea {
+    clear:both;
+    margin:27pt 8pt 12pt;
+}
+
+.leftSplit {
+    width: 220px;
+    float:left;
+    clear:both;
+}
+
+.rightSplit {
+    width: 220px;
+    float:left;
+    padding-bottom:10px;
+}
+
+.rightSplit a {
+    padding: 0px;
+}
+
+.more {
+    float:right;
+    font-style: italic;
+}
+
+.beforeFile {
+    clear:both;
+    padding-top:8px;
+    padding-bottom:10px;
+}
+
+.videoContainer {
+}
+
+.imageContainer {
+	float: left;
+	clear: both;
+	margin: 10px 0 10px 5px;
+}
+
+.imageContainer1 {
+	float: left;
+	clear: left;
+	background: url(../image/shadowAlpha.png) no-repeat bottom right
+		!important;
+	background: url(../image/shadow.gif) no-repeat bottom right;
+	margin: 10px 0 10px 10px !important;
+	margin: 10px 0 10px 5px;
+}
+
+.imageContainer1 img {
+	display: block;
+	position: relative;
+	background-color: #fff;
+	margin: -10px 6px 6px -6px;
+}
+
+#slideShow {
+	width: 450px;
+	height: 100%;
+	padding: 0px 30px 30px 30px;
+}
+
+#slideContent .innertube a:hover {
+	background-color: #fff;
+}
+
+.tipTable {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.tableText {
+	font-size: 9px;
+	font-weight: normal;
+	color: #666666;
+	line-height: 1em;
+}
+
+.tableTitle {
+	color: #666666;
+	font-weight: bold;
+	font-size: 9px;
+	line-height: 1em;
+}
+
+
+.thumbwrapper .highslide {
+	outline: none;
+}
+.textwrapper .highslide {
+	font-size: 11pt; 
+	text-decoration: none;
+	display: block; 
+	text-align: center;
+}
+.highslide {
+	outline: none;
+}
+.highslide img {
+	border: 2px solid gray;
+	cursor: url(/highslide/graphics/zoomin.cur), pointer;
+    outline: none;
+}
+.highslide:hover img {
+	border: 2px solid silver;
+}
+
+.highslide-image {
+	border: 10px solid white;
+}
+.highslide-image-blur {
+}
+.highslide-caption {
+    display: none;
+    border-top: none;
+    padding: 0 10px 10px 10px;
+    background-color: white;
+    text-align: justify;
+}
+.highslide-loading {
+    display: block;
+	color: black;
+	font-size: 8pt;
+	font-family: sans-serif;
+	font-weight: bold;
+    text-decoration: none;
+	padding: 2px;
+	border: 1px solid black;
+    background-color: white;
+    
+    /*padding-left: 22px;
+    background-image: url(highslide/graphics/loader.white.gif);
+    background-repeat: no-repeat;
+    background-position: 3px 1px;*/   
+}
+.control {
+	float: right;
+    display: block;
+    /*position: relative;*/
+	margin: 0 5px;
+	font-size: 9pt;
+    font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.control:hover {
+	color: black !important;
+}
+.highslide-move {
+    cursor: move;
+}
+.highslide-overlay {
+	display: none;
+}
+a.highslide-credits,
+a.highslide-credits i {
+    padding: 2px;
+    color: silver;
+    text-decoration: none;
+	font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+    color: white;
+    background-color: gray;
+}
+.highslide-previous-next {
+    text-align: center;
+    padding-bottom: 5px;
+}
+.highslide-previous-next a {
+	font-size: 7pt;
+    font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+    color: white;
+    padding: 0 20px;
+}
+.highslide-html {
+    border: 2px solid silver;
+    background-color: white;
+}
+.highslide-html-blur {
+    border: 2px solid gray;
+}
+.highslide-html-content {
+	position: absolute;
+    display: none;
+}
+
+/* The default wrapper */
+.highslide-wrapper {
+	background: white;
+}
+
+/* Individual CSS-classes: no border */
+.highslide-no-border {
+}
+.highslide-no-border .highslide-image {
+	border: none;
+	border-bottom: 1px solid white;
+	
+}
+.highslide-no-border .highslide-html {
+	border: none;
+	
+}
+.highslide-no-border .highslide-caption {
+	border: none;
+    border-bottom: 1px solid white;
+    background-color: gray;
+	color: white;
+}
+.highslide-no-border .highslide-caption code {
+    color: white;
+}
+
+/* Individual CSS-classes: gradient */
+.highslide-white {
+}
+.highslide-white .highslide-image {
+	border: 5px solid white;
+	
+}
+.highslide-white .highslide-caption {
+	background-color: white;
+	font-weight: bold;
+	font-size:12px;
+}
+.highslide-white .control, .highslide-white .control * {
+	color: #666;
+}
+.highslide-white .highslide-html {
+    border: 2px solid white;
+}
+
+/* Individual CSS-classes: narrow border */
+.highslide-narrow-border .highslide-image {
+	border: 2px solid white;
+}
+.highslide-narrow-border .highslide-caption {
+	background-color: white;
+}
+
+/* Individual CSS-classes: black border */
+.highslide-black-border .highslide-image {
+	border: 2px solid #655F2F;
+}
+.highslide-black-border .highslide-caption {
+	border: 2px solid #655F2F;
+	border-top: none;
+	background-color: white;
+	color: #333;
+}
+
+/* Individual CSS-classes: specified blur style */
+.highslide-blur-example .highslide-image-blur {
+    border-color: silver;
+}
+
+.highslide-blur-example .highslide-caption-blur {
+    border-color: silver;
+}
+
+.html-header {
+	background-image: url(/highslide/graphics/header-background.gif);
+	cursor: default;
+	height: 18px;
+	padding: 2px;
+}
+.highslide-html-blur #highslide-html-7-header {
+	background-image: url(/highslide/graphics/header-background-blur.gif); 
+	height: 18px;
+	padding: 2px;
+}
+
+
+/* Controlbar example */
+.controlbar {	
+	background: url(/highslide/graphics/controlbar4.gif);
+	width: 167px;
+	height: 34px;
+}
+.controlbar a {	
+	display: block;
+	float: left;
+	/*margin: 0px 0 0 4px;*/	
+	height: 27px;
+}
+.controlbar a:hover {
+	background-image: url(/highslide/graphics/controlbar4-hover.gif);
+	background-color: transparent;
+}
+.controlbar .previous {
+	width: 50px;
+}
+.controlbar .next {
+	width: 40px;
+	background-position: -50px 0;
+}
+.controlbar .highslide-move {
+	width: 40px;
+	background-position: -90px 0;
+}
+.controlbar .close {
+	width: 36px;
+	background-position: -130px 0;
+}
+
+/* Controlbar example */
+.controlbar2 {	
+	margin-left: 60px;
+	background: url(/highslide/graphics/controlbar2.gif);
+	width: 210px;
+	height: 32px;
+}
+.controlbar2 a {	
+	display: block;
+	float: left;
+	margin: 0 0 0 5px;
+	height: 30px;
+	width: 42px;
+}
+
+/* Controlbar example */
+.controlbar5 {	
+	background: url(/highslide/graphics/controlbar5.gif);
+	width: 83px;
+	height: 18px;
+	float:right;
+}
+.controlbar5 a {	
+	display: block;
+	float: left;
+	height: 18px;
+}
+.controlbar5 a:hover {
+	background-image: url(/highslide/graphics/controlbar5-hover.gif);
+}
+.controlbar5 .previous {
+	width: 20px;
+}
+.controlbar5 .next {
+	width: 20px;
+	background-position: -20px 0;
+}
+.controlbar5 .highslide-move {
+	width: 20px;
+	background-position: -40px 0;
+}
+.controlbar5 .close {
+	width: 20px;
+	background-position: -60px 0;
+}
+
+/* Put these last in your highlide-related CSS */
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}
+
+
+.sharesb {
+/*border:1px solid #878787;*/
+clear:both;
+margin:55px 10px 10px 20px;
+padding:3px;
+bottom:0pt;
+position:absolute;
+
+}
+.sharesb p {
+margin:0pt;
+padding:0pt;
+}
+.sharesb p a {
+padding:3px 5px 0pt 0pt;
+position:absolute;
+right:0px;
+top:0px;
+}
+
+.sharesb h3 {
+font-size:0.88em;
+font-weight:normal;
+margin:0pt 5px 0pt 3px;
+padding:0pt 3px 0pt 0pt;
+}
+.sharesb ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:6px 0pt 4px;
+padding:0pt;
+text-align:center;
+}
+.sharesb ul li {
+display:inline;
+padding:0pt 4px 6px 0pt;
+text-align:center;
+}
+.sharesb ul li.delicious {
+background:transparent url(/image/delicious.gif) no-repeat scroll 0pt;
+}
+.sharesb ul li.digg {
+background:transparent url(/image/digg.gif) no-repeat scroll 0pt;
+}
+.sharesb ul li.reddit {
+background:transparent url(/image/reddit.gif) no-repeat scroll 0pt;
+padding:0pt 0pt 0pt 2px;
+}
+.sharesb ul li.facebook {
+background:transparent url(/image/facebook.gif) no-repeat scroll 0pt;
+}
+.sharesb ul li.stumbleupon {
+background:transparent url(/image/stumbleupon.gif) no-repeat scroll 0pt;
+}
+.sharesb ul li.rss {
+background:transparent url(/image/rss_16x16.gif) no-repeat scroll 0pt;
+}
+.sharesb ul li a {
+margin:0pt 3px 0pt 0px;
+padding:0pt 0pt 0pt 18px;
+}
+
+.sharesb ul li a:hover {
+    background-color: transparent;
+	color:#71855E;
+}
+

@@ -1,0 +1,884 @@
+open ftp.wareabouts.com
+upload@wareabouts.com
+ftpware123
+binary
+
+cd /
+mkdir "1986"
+cd "1986"
+mkdir "Cycle_to_Portugal"
+cd "Cycle_to_Portugal"
+put "D:\docs\wareabouts\htdocs\1986\Cycle_to_Portugal\index.php5"
+
+cd /
+mkdir "1990"
+cd "1990"
+mkdir "Italy_World_Cup"
+cd "Italy_World_Cup"
+put "D:\docs\wareabouts\htdocs\1990\Italy_World_Cup\index.php5"
+
+cd /
+mkdir "1994"
+cd "1994"
+mkdir "Finland"
+cd "Finland"
+put "D:\docs\wareabouts\htdocs\1994\Finland\index.php5"
+
+cd /
+mkdir "1994"
+cd "1994"
+mkdir "Israel"
+cd "Israel"
+put "D:\docs\wareabouts\htdocs\1994\Israel\index.php5"
+
+cd /
+mkdir "1995"
+cd "1995"
+mkdir "India"
+cd "India"
+put "D:\docs\wareabouts\htdocs\1995\India\index.php5"
+
+cd /
+mkdir "1995"
+cd "1995"
+mkdir "Indonesia"
+cd "Indonesia"
+put "D:\docs\wareabouts\htdocs\1995\Indonesia\index.php5"
+
+cd /
+mkdir "1995"
+cd "1995"
+mkdir "Australia"
+cd "Australia"
+put "D:\docs\wareabouts\htdocs\1995\Australia\index.php5"
+
+cd /
+mkdir "1998"
+cd "1998"
+mkdir "USA_Southern_Cross_Bicycle_Classic"
+cd "USA_Southern_Cross_Bicycle_Classic"
+put "D:\docs\wareabouts\htdocs\1998\USA_Southern_Cross_Bicycle_Classic\index.php5"
+
+cd /
+mkdir "2003"
+cd "2003"
+mkdir "Thatcham"
+cd "Thatcham"
+put "D:\docs\wareabouts\htdocs\2003\Thatcham\index.php5"
+
+cd /
+mkdir "2008"
+cd "2008"
+mkdir "Winter"
+cd "Winter"
+put "D:\docs\wareabouts\htdocs\2008\Winter\index.php5"
+
+cd /
+mkdir "2009"
+cd "2009"
+mkdir "Ruapehu"
+cd "Ruapehu"
+put "D:\docs\wareabouts\htdocs\2009\Ruapehu\index.php5"
+
+cd /
+mkdir "2012"
+cd "2012"
+put "D:\docs\wareabouts\htdocs\2012\index.php5"
+
+cd /
+mkdir "2010"
+cd "2010"
+mkdir "Mum_and_Dad"
+cd "Mum_and_Dad"
+put "D:\docs\wareabouts\htdocs\2010\Mum_and_Dad\index.php5"
+
+cd /
+mkdir "2010"
+cd "2010"
+mkdir "Ski_Trip"
+cd "Ski_Trip"
+put "D:\docs\wareabouts\htdocs\2010\Ski_Trip\index.php5"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2010"
+cd "2010"
+mkdir "Rothesay"
+cd "Rothesay"
+put "D:\docs\wareabouts\htdocs\thumb\2010\Rothesay\IMG_2429.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2010"
+cd "2010"
+mkdir "Rothesay"
+cd "Rothesay"
+put "D:\docs\wareabouts\htdocs\photo\2010\Rothesay\IMG_2429.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2010"
+cd "2010"
+mkdir "Rothesay"
+cd "Rothesay"
+put "D:\docs\wareabouts\htdocs\thumb\2010\Rothesay\IMG_2430.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2010"
+cd "2010"
+mkdir "Rothesay"
+cd "Rothesay"
+put "D:\docs\wareabouts\htdocs\photo\2010\Rothesay\IMG_2430.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2010"
+cd "2010"
+mkdir "Rothesay"
+cd "Rothesay"
+put "D:\docs\wareabouts\htdocs\thumb\2010\Rothesay\IMG_2432.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2010"
+cd "2010"
+mkdir "Rothesay"
+cd "Rothesay"
+put "D:\docs\wareabouts\htdocs\photo\2010\Rothesay\IMG_2432.JPG"
+
+cd /
+mkdir "2010"
+cd "2010"
+mkdir "Rothesay"
+cd "Rothesay"
+put "D:\docs\wareabouts\htdocs\2010\Rothesay\index.php5"
+
+cd /
+mkdir "2010"
+cd "2010"
+mkdir "East_Coast_Bays_AFC_10th_Grade_Ware"
+cd "East_Coast_Bays_AFC_10th_Grade_Ware"
+put "D:\docs\wareabouts\htdocs\2010\East_Coast_Bays_AFC_10th_Grade_Ware\index.php5"
+
+cd /
+mkdir "2010"
+cd "2010"
+put "D:\docs\wareabouts\htdocs\2010\index.php5"
+
+cd /
+mkdir "2011"
+cd "2011"
+mkdir "Raglan"
+cd "Raglan"
+put "D:\docs\wareabouts\htdocs\2011\Raglan\index.php5"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2011"
+cd "2011"
+mkdir "Snowplanet"
+cd "Snowplanet"
+put "D:\docs\wareabouts\htdocs\thumb\2011\Snowplanet\P1290399.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2011"
+cd "2011"
+mkdir "Snowplanet"
+cd "Snowplanet"
+put "D:\docs\wareabouts\htdocs\photo\2011\Snowplanet\P1290399.JPG"
+
+cd /
+mkdir "2011"
+cd "2011"
+mkdir "Snowplanet"
+cd "Snowplanet"
+put "D:\docs\wareabouts\htdocs\2011\Snowplanet\index.php5"
+
+cd /
+mkdir "2011"
+cd "2011"
+mkdir "Tawharanui_with_the_Woodhouses"
+cd "Tawharanui_with_the_Woodhouses"
+put "D:\docs\wareabouts\htdocs\2011\Tawharanui_with_the_Woodhouses\index.php5"
+
+cd /
+mkdir "2011"
+cd "2011"
+put "D:\docs\wareabouts\htdocs\2011\index.php5"
+
+cd /
+mkdir "2013"
+cd "2013"
+mkdir "Rotorua"
+cd "Rotorua"
+put "D:\docs\wareabouts\htdocs\2013\Rotorua\index.php5"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC221358.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC221358.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC221383.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC221383.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3021.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3021.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC221397.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC221397.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC221399.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC221399.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC221419.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC221419.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3035.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3035.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC231424.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC231424.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3053.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3053.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC231428.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC231428.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3054.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3054.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC231442.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC231442.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3119.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3119.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3124.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3124.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC241467.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC241467.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC251499.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC251499.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC251501.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC251501.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3233.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3233.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3308.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3308.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC271531.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC271531.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC271532.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC271532.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3332.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3332.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3345.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3345.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3351.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3351.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3399.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3399.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3407.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3407.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3412.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3412.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3428.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3428.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3436.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3436.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\IMG_3454.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\IMG_3454.JPG"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\thumb\2013\Kinloch\PC271566.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\photo\2013\Kinloch\PC271566.JPG"
+
+cd /
+mkdir "2013"
+cd "2013"
+mkdir "Kinloch"
+cd "Kinloch"
+put "D:\docs\wareabouts\htdocs\2013\Kinloch\index.php5"
+
+cd /
+mkdir "2013"
+cd "2013"
+put "D:\docs\wareabouts\htdocs\2013\index.php5"
+
+cd /
+mkdir "2014"
+cd "2014"
+mkdir "Marsden_Cove"
+cd "Marsden_Cove"
+put "D:\docs\wareabouts\htdocs\2014\Marsden_Cove\index.php5"
+
+cd /
+mkdir "thumb"
+cd "thumb"
+mkdir "2014"
+cd "2014"
+mkdir "Mum_and_Dad"
+cd "Mum_and_Dad"
+put "D:\docs\wareabouts\htdocs\thumb\2014\Mum_and_Dad\P1191680.JPG"
+
+cd /
+mkdir "photo"
+cd "photo"
+mkdir "2014"
+cd "2014"
+mkdir "Mum_and_Dad"
+cd "Mum_and_Dad"
+put "D:\docs\wareabouts\htdocs\photo\2014\Mum_and_Dad\P1191680.JPG"
+
+cd /
+mkdir "2014"
+cd "2014"
+mkdir "Mum_and_Dad"
+cd "Mum_and_Dad"
+put "D:\docs\wareabouts\htdocs\2014\Mum_and_Dad\index.php5"
+
+cd /
+mkdir "2014"
+cd "2014"
+mkdir "Murawai"
+cd "Murawai"
+put "D:\docs\wareabouts\htdocs\2014\Murawai\index.php5"
+
+cd /
+mkdir "2014"
+cd "2014"
+put "D:\docs\wareabouts\htdocs\2014\index.php5"
+
+cd /
+mkdir "2014"
+cd "2014"
+mkdir "USA"
+cd "USA"
+put "D:\docs\wareabouts\htdocs\2014\USA\index.php5"
+
+cd /
+mkdir "2015"
+cd "2015"
+mkdir "Roys_80th"
+cd "Roys_80th"
+put "D:\docs\wareabouts\htdocs\2015\Roys_80th\index.php5"
+
+cd /
+mkdir "2015"
+cd "2015"
+put "D:\docs\wareabouts\htdocs\2015\index.php5"
+
+cd /
+mkdir ""
+cd ""
+put "D:\docs\wareabouts\htdocs\\homePageInsert.inc"
+
+cd /
+mkdir "xml"
+cd "xml"
+put "D:\docs\wareabouts\htdocs\xml\posts.xml"
+
+cd /
+mkdir "xml"
+cd "xml"
+put "D:\docs\wareabouts\htdocs\xml\posts.gz"
+
+cd /
+put "D:\docs\wareabouts\htdocs\sitemap.xml"
+
+cd /
+put "D:\docs\wareabouts\htdocs\rss.xml"
+
+cd /
+cd "savedArrays"
+delete "yearArray.txt"
+
+bye

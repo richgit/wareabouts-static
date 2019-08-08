@@ -1,0 +1,16 @@
+open freeolaweb5.freeola.net
+sr0446715
+westhamupload
+binary
+
+cd /htdocs
+cd marathon
+mput "C:\Documents and Settings\Richard\My Documents\wareabouts\htdocs\marathon\index.php5"
+cd log
+mput "C:\Documents and Settings\Richard\My Documents\wareabouts\htdocs\marathon\log\*.*"
+cd ..
+cd "charts"
+put "C:\Documents and Settings\Richard\My Documents\wareabouts\htdocs\marathon\charts\week1.gif"
+
+
+bye

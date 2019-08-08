@@ -1,0 +1,65 @@
+open ftp.wareabouts.com
+upload@wareabouts.com
+ftpware123
+binary
+
+cd /public_html
+mkdir "1965"
+cd "1965"
+mkdir "Mum_and_Dads_Wedding"
+cd "Mum_and_Dads_Wedding"
+put "D:\docs\wareabouts\htdocs\1965\Mum_and_Dads_Wedding\index.php5"
+
+cd /public_html
+mkdir "1965"
+cd "1965"
+put "D:\docs\wareabouts\htdocs\1965\index.php5"
+
+cd /public_html
+mkdir "thumb"
+cd "thumb"
+mkdir "1988"
+cd "1988"
+mkdir "Italy"
+cd "Italy"
+mkdir "Rimini"
+cd "Rimini"
+mkdir "Nicki"
+cd "Nicki"
+put "D:\docs\wareabouts\htdocs\thumb\1988\Italy\Rimini\Nicki\img257rude.jpg"
+
+cd /public_html
+mkdir "photo"
+cd "photo"
+mkdir "1988"
+cd "1988"
+mkdir "Italy"
+cd "Italy"
+mkdir "Rimini"
+cd "Rimini"
+mkdir "Nicki"
+cd "Nicki"
+put "D:\docs\wareabouts\htdocs\photo\1988\Italy\Rimini\Nicki\img257rude.jpg"
+
+cd /public_html
+mkdir "thumb"
+cd "thumb"
+mkdir "1992"
+cd "1992"
+mkdir "Caversham"
+cd "Caversham"
+mkdir "Nicki"
+cd "Nicki"
+put "D:\docs\wareabouts\htdocs\thumb\1992\Caversham\Nicki\sc_img1391rude.jpg"
+
+cd /public_html
+mkdir "photo"
+cd "photo"
+mkdir "1992"
+cd "1992"
+mkdir "Caversham"
+cd "Caversham"
+mkdir "Nicki"
+cd "Nicki"
+put "D:\docs\wareabouts\htdocs\photo\1992\Caversham\Nicki\sc_img1391rude.jpg"
+

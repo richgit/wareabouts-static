@@ -1,0 +1,293 @@
+	
+html, body {margin: 0; padding: 0; border: 0;}
+
+* {
+    margin: 0pt;
+    padding: 0pt;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+/*    font-family: Tahoma, sans-serif;*/
+/*    font-family: "Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif; */
+    font-size: 11px;
+    color: #53535F;
+}
+
+body {
+
+text-align: center;
+margin: 0px 0;
+}
+
+p  {margin: 6px 0; padding: 0 6px;}
+
+.clear { clear: both; }
+
+a {
+    text-decoration: none;
+/*    padding:1px 2px; */
+}
+
+a:hover {
+  background:#3B5998 none repeat scroll 0% 50%;
+  border-color:#D8DFEA rgb(216, 223, 234) rgb(59, 89, 152);
+  color:white;
+  text-decoration:none;
+}
+.alignright {margin-top: 0; text-align: right; clear: both;}
+
+.small {font-size: .9em;}
+
+.wide {
+background: url(/image/spacer.gif);    /* header and footer colours */
+width: 100%; 
+padding-top: 5px;
+}
+
+.wide p {margin: 0; padding: 5px; position: relative;}
+
+.top {
+border-bottom: 1px solid #DDDDDD;
+background-color: #3B5998;
+height: 25px;
+}
+
+/*
+.top a {position: absolute; right: 20px; text-align: right; font-weight: bold; font-size: .7em; color: #fff;}
+*/
+.bottom {
+border-style:none solid solid; border-top: 1px solid #DDDDDD; position: relative;}
+
+.testfloat {width: 50px; border: 2px solid #f90; background: #ffd; font-size: .7em;}
+
+.to-right {float: right;}
+
+.to-left {float: left;}
+
+.ap-test {
+position: absolute; 
+top: -102px; 
+font-size: .6em; 
+width: 150px; 
+height: 100px; 
+border-top: 1px solid #000; 
+background: #5b5; 
+color: yellow;
+}
+
+/* \*/
+* html .ap-test {
+top: -101px; 
+t\op: -102px; 
+}
+/* */
+
+.ap-left {left: 0;}
+
+.ap-right {right: 0;}
+
+
+/*XXXXXXXXXXXXXXXXX Primary layout rules XXXXXXXXXXXXXXXX*/
+
+/******************************************************************************** 
+To adjust the side col widths, or the vertical col dividers, a certain set of values must be changed
+all at the same time and by exact amounts or problems will result. Each of these group's member values
+have been marked off with comments that start with "Critical...". For example, if the left col width needs
+to be changed then all the values marked "Critical left col dimension value" MUST have their pixel values
+altered by the same amount. Certain of these left col width values are marked "(moves inversly)", and 
+these get changed by the same pixel amount but inversly to the other values. So if margin-left on .outer
+is increased by 10px, then the width of .outer must decrease by 10px, and so on.
+
+To change the width of the entire layout, .wrapper, .outer, .float-wrap, and .center all get changed together,
+and only after that is it safe to change col or divider widths. Remember, even one small mistake will degrade or 
+even break the layout, so be very careful! it's possible to "loosen" the layout so small errors aren't so messy,
+but then it becomes hard to finely control text spacing. 
+
+For spacing within the cols, it's best to apply margins on content elements inserted into the cols, 
+because padding directly on those col elements will change their widths, breaking the layout. 
+
+Certain hiding hacks have been used extensively in this layout, so here is a quick explaination of them.
+
+The Tan hack:
+
+* html .anyelement {rules read only by IE/Win and IE/Mac}
+
+The Mac-hack:  (first the active comment you are reading now must be closed...) */
+
+/* \*/
+
+/* */
+
+/*...Back in comment mode now. Anything between those two comment lines will be hidden from 
+IE/Mac. Don't use any comments within this hack or it will close prematurely and IE/Mac will begin 
+reading before it should.
+
+The above two hacks are combined so as to feed rules only to IE/Win. Proper use of backslash escape 
+characters inside property names used in the Holly hack can further segregate rules to be read by only 
+IE6 from rules for IE5.x/Win. 
+
+These hiding hacks, along with several other fixes, make possible this formerly impossible layout.
+It is highly unlikely that new browsers will have any problem with these valid hiding hacks, and 
+Microsoft does not plan any browser changes soon that would alter the proper operation of the layout.
+********************************************************************************/
+
+
+.wrapper {
+margin: 0 auto;
+width: 780px;
+text-align: left;
+background: url(/image/spacer.gif) repeat-y;
+border: 1px solid #DDDDDD;
+}
+
+* html .wrapper {   /*** IE5.x/win box model fix ***/
+width: 782px;
+wid\th: 780px;
+}
+
+.outer {
+position: relative; /*** IE needs this or the contents won't show outside the parent container. ***/
+margin-left: 150px;    /*** Critical left col dimension value ***/
+width: 478px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+background: #fff url(/image/spacer.gif);  /*** Sets background of center col***/
+border-left: 1px solid #DDDDDD;   /*** Critical left divider dimension value ***/
+border-right: 1px solid #DDDDDD;   /*** Critical right divider dimension value ***/
+}
+
+* html .outer {   /*** IE5.x/win box model fix ***/
+width: 480px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+wid\th: 478px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+}
+
+.float-wrap {
+float: left;
+width: 478px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+margin-right: -1px;   /*** Static fix ***/
+}
+
+.center {
+float: right;
+width: 478px;   /*** Critical left and right col/divider dimension value (moves inversly) ***/
+margin-bottom: -1px;   /*** Fixes a variance in IE/win for the green AP bottom boxes ***/
+/* \*/
+margin-left: -1px; 
+/* Hidden from IE-mac */
+}
+
+.left {
+position: relative; /*** IE needs this or the contents won't show outside the parent container. ***/
+width: 152px;    /*** Critical left col/divider dimension value ***/
+margin-left: -151px;    /*** Critical left col/divider dimension value ***/
+}
+
+* html .left {
+float:left;	
+}
+
+*>html .left {width:151px;}   /*** Fix only for IE/Mac ***/
+
+.container-left {
+width: 150px;    /*** Critical left col dimension value ***/
+padding-bottom: 110px;   /*** To keep content from going underneath the AP bottom boxes ***/ 
+}
+
+.right {
+float: left; 
+position: relative; /*** IE needs this or the contents won't show outside the parent container. ***/
+width: 152px;    /*** Critical right col/divider dimension value ***/
+margin-right: -150px;    /*** Critical right col/divider dimension value ***/
+margin-left: -1px;   /*** Static fix ***/
+}
+
+/* \*/
+* html .right {
+margin-left: 0px; 
+margin-right: -500px; 
+mar\gin-right: -152px;
+}
+/* */
+
+/*** These commented-out rules below are there to explain the "Critical" info 
+	for the rules above, because comments must not appear within the Mac-hack.
+	The "rules" below are not active, they are just for teaching purposes. ***/
+
+/*
+* html .right {
+margin-left: 0px;    *** Critical right divider dimension value ***
+margin-right: -500px;    *** IE5.x/win fix, must be above a critical number, but very high values appear okay ***
+mar\gin-right: -152px;    *** Critical right col/divider dimension value ***
+}
+*/
+
+
+.container-right { 
+/* \*/width: 150px;/* Hidden from IE-Mac */   /*** Critical right col dimension value ***/
+margin-left: 3px;    /*** Critical right divider dimension value ***/
+padding-bottom: 110px;   /*** To keep content from going underneath the AP bottom boxes ***/
+}
+
+/* \*/
+* html .container-right {
+fl\oat: right;
+margin-left: 2px; 
+mar\gin-left: 0px; 
+}
+/*** Static fixes ***/
+
+/*** Below is the Holly hack, and if IE/Win shows bugs it's a good idea to apply this hack to 
+	different elements and see if that fixes the problem. Sometimes it may be necessary 
+	to use "position: relative;" on certain elements, but it's hard to tell in advance which 
+	elements will need such fixes. Here it prevents IE5/Win from clipping the left ends 
+	of the headings. ***/
+/* \*/
+* html h2 {height: 1%;}
+/* */
+
+
+/*** This is a fix for IE5/Win at the largest text size setting. ***/
+/* \*/
+* html .left {margin-right: -3px;}
+/* */
+
+
+.italics-test, .italics-test-side {
+font-style: italic; 
+text-align: justify; 
+background: #ccd;
+border: 1px solid red;
+}
+
+/*** The following fixes prevent justified italic text from destroying the layout in IE/win.
+	The problem is that those properties together make IE force the container wider,
+	which in this type of floated layout causes a float drop. 	Pre-IE6 gets "width: 100%" 
+	and "overflow: hidden", while IE6 gets "width: auto" and "overflow: visible, which 
+	is the default, but explicitly stating it seems to keep IE6 happy. IE6 also needs
+	to see the "height: 1%" to give it some kind of box dimension. Browser coddling 
+	we call it. Finally, Bruno found that "word-wrap: break-word;" disarranged the 
+	justified text in IE5.5 and 6, so it is defaulted to "normal" for this text.
+	If you don't need justified and italicized text then forget all these fixes ***/
+
+/* \*/
+* html .italics-test, * html .italics-test-side {
+overflow: hidden;
+width: 100%;
+o\verflow: visible;
+w\idth: auto;
+hei\ght: 1px;
+}
+/* */
+
+/*** All the IE fixes that are inside separate "Mac-hacks" may be grouped 	within 
+	just one Mac-hack for convenience if desired. However, each fix must come 
+	later than the rule it is fixing or the fix itself will be overridden. ***/
+
+</style><!--[if IE]>
+
+<style type="text/css">
+/*** The rule below prevents long urls from widening floated cols and breaking the layout 
+	in IE. It is not valid, but if placed within a "Conditional comment" it will be hidden 
+	from all user agents other than IE/Win, and thus validate. This fix fails in IE5/Win.
+	http://msdn.microsoft.com/workshop/author/dhtml/overview/ccomment_ovw.asp ***/
+
+.outer {word-wrap: break-word;}
+</style>
+
+<![endif]--><link href="piefecta-rigid_files/highlighter.css" type="text/css" rel="stylesheet">

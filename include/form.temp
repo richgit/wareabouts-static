@@ -1,0 +1,11 @@
+    <li id="searchListElement">
+		  <form id='searchForm' name='searchForm' method='post' action="/search/">
+            <input type="text" title="Search:" name="search" id="search" size="8" value='<?php
+if (isset($_POST['search'])) {
+  echo $_POST['search'];
+}
+?>
+'/>
+             <input type='submit' name='Submit' value='Go' />
+          </form>
+	</li>

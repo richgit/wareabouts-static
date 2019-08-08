@@ -1,0 +1,61 @@
+ul.jd_menu_slate {
+    height: 19px;
+    background-color: #FFFFFF;
+/*    background: url(gradient.png) repeat-x;*/
+/*    border: 1px solid #FFFFFF; */
+    clear: both;
+}
+
+
+/*ul.jd_menu_slate a,
+ul.jd_menu_slate a:active,
+ul.jd_menu_slate a:link,
+ul.jd_menu_slate a:visited {
+    text-decoration: none;
+    color: #666666;
+}*/
+/*ul.jd_menu_slate ul li a,
+ul.jd_menu_slate ul li a:active,
+ul.jd_menu_slate ul li a:link,
+ul.jd_menu_slate ul li a:visited {
+    color: #70777D;
+}*/
+ul.jd_menu_slate li {
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    padding: 2px 6px 4px 6px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #666666;
+}
+ul.jd_menu_slate li.jd_menu_active_menubar,
+ul.jd_menu_slate li.jd_menu_hover_menubar {
+/*    padding-left: 5px;
+    border-left: 1px solid #ABB5BC;
+    padding-right: 5px;
+    border-right: 1px solid #929AA1;
+    border-right: 1px solid #70777D;
+    color: #CC0000;
+    background: url(gradient-alt.png) repeat-x;*/
+}
+
+ul.jd_menu_slate ul {
+    background: #ABB5BC;
+    border: 1px solid #70777D;
+}
+ul.jd_menu_slate ul li {
+    padding: 3px 10px 3px 4px;
+    background: #eeeeee;
+    border: none;
+    color: #666666;
+}
+ul.jd_menu_slate ul li.jd_menu_active,
+ul.jd_menu_slate ul li.jd_menu_hover {
+/*    color: #CC0000;*/
+    background-color:#3B5998;
+}
+ul.jd_menu_slate ul li.jd_menu_active a.jd_menu_active,
+ul.jd_menu_slate ul li.jd_menu_hover a.jd_menu_hover {
+    color: #FFFFFF;
+}
+
