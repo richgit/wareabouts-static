@@ -1696,23 +1696,6 @@
             </div>
             <div class="left">
                 <div class="container-left">
-                    <script type="text/javascript">
-
-                        $(document).ready(function(){
-                            refreshLeft();
-                        });
-
-                        function refreshLeft() {
-
-                            $(".container-left .innertube").empty();
-                            $(".container-left .innertube").append("<img class='loading' src='/image/loading.gif'/>");
-
-                            // use dummy request param to force post instead of get, so IE doesn't cache response
-                            $(".container-left .innertube").load("/include/leftRandomRefresh.php5", { 'dummy': ["dummy"] }, function(){
-                                bodyLoad(".container-left");
-                            });
-                        }
-                    </script>
                     <br>
                     <p class="noHoverBG sidebar-top">
                         <script type="text/javascript"><!--
@@ -1760,21 +1743,6 @@
                 </p>
                 <br>
 
-                <script type="text/javascript">
-                    $(document).ready(function(){
-                        refreshRightRandom();
-                    });
-
-                    function refreshRightRandom() {
-                        $(".container-right #rightRandom").empty();
-                        $(".container-right #rightRandom").append("<img class='loading' src='/image/loading.gif'/>");
-                        // use dummy request param to force post instead of get, so IE doesn't cache response
-                        $(".container-right #rightRandom").load("/include/rightRandomRefresh.php5", { 'dummy': ["dummy"] } , function(){
-                            bodyLoad("#rightRandom");
-                        });
-                    }
-
-                </script>
                 <div class="banner">
                     <div class="leftbanner">
                         <h1>Random</h1>
@@ -1792,6 +1760,7 @@
     </div>
     <div id="footer">
         <div id="footerLeft">
+            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;to=&amp;su=wareabouts&amp;body=http://www.wareabouts.com/setcookie.php5?url=http://www.wareabouts.com/" id="generate-page-link" target="_blank">Generate Link</a>
         </div>
         <div id="footerRight">
             Last Modified: November 26 2015 16:11:15</div>
