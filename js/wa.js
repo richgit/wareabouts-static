@@ -1,16 +1,4 @@
 
-$(window).load(function() {
-    if ($.cookie('secure') == null) {
-        console.log('not set');
-        document.body.innerHTML = '';
-        window.location.replace('http://' + $(location).attr('host') + '/secure/setcookie.php5?url=' + $(location).attr('href'));
-    } else {
-        console.log('cookie=' + $.cookie('secure'));
-    }
-
-})
-
-
 jQuery.preloadImages = function () {
     for (var i = 0; i < arguments.length; i++) {
         jQuery("<img>").attr("src", arguments[i]);
@@ -30,7 +18,7 @@ $(document).ready(function () {
 //            $(this).parent().parent('.imageContainer').attr('id'));
 //    });
 
-    $("#search").autocomplete("/search/autocomplete_backend.php5", {autoFill: true, cacheLength: 10});
+    // $("#search").autocomplete("/search/autocomplete_backend.php5", {autoFill: true, cacheLength: 10});
     bodyLoad();
 
 });
